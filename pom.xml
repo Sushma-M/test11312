@@ -103,7 +103,6 @@
                         </goals>
                         <configuration>
                             <sources>
-                            
                                 <source>services/googleapis/src</source>
                                 <source>services/securityService/src</source>
                             </sources>
@@ -298,10 +297,10 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
-    <groupId>mysql</groupId>
-    <artifactId>mysql-connector-java</artifactId>
-    <version>5.1.6</version>
-</dependency> 
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>5.1.6</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
     <properties>
